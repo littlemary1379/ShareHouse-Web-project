@@ -10,4 +10,9 @@ public class indexController {
 	public String index() {
 		return "index";
 	}
+	
+	@GetMapping("/putOutRoom")
+	public String putOutRoom() {
+		return "/page/putOutRoom";
+	}
 }
