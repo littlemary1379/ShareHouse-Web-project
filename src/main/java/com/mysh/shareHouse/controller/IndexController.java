@@ -21,6 +21,8 @@ public class IndexController {
 		return "/page/putOutRoom";
 	}
 	
-
-	
+	@GetMapping("/findRoom")
+	public String findRoom() {
+		return "/page/findRoom";
+	}
 }

@@ -1,4 +1,4 @@
-/* 공통 */
+/* 怨듯넻 */
 li, a{
   list-style: none;
   text-decoration: none;
@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* 헤더 */
+/* �뿤�뜑 */
 header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ header ul li {
   padding-right: 51px;
 }
 
-/* 푸터 */
+/* �뫖�꽣 */
 footer {
   padding-left: 400px;
   padding-right: 400px;
@@ -86,7 +86,7 @@ footer div img {
   height: 40px;
 }
 
-/* 섹션 */
+/* �꽮�뀡 */
 .main_banner {
   background-image: url("/img/main_banner.jpg");
   background-size: 100%;
@@ -236,7 +236,7 @@ footer div img {
   padding: 0 10px 0 10px;
 }
 
-/* 방 내놓기 nav*/
+/* 諛� �궡�넃湲� nav*/
 .PutOutRoom_Nav {
   margin: 10px 60% 10px 15%;
 }
@@ -250,7 +250,7 @@ footer div img {
   text-decoration: none;
 }
 
-/* 직영 임대 주기 */
+/* 吏곸쁺 �엫�� 二쇨린 */
 .directRent_banner {
   background-image: url("https://static.wixstatic.com/media/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.png/v1/fill/w_1903,h_380,al_c,q_90,usm_0.66_1.00_0.01/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.webp");
   text-align: center;
@@ -477,4 +477,24 @@ footer div img {
   border-radius: 2em;
   padding: 5px 70px 5px 70px;
   font-size: 20px;
+}
+
+.findRoom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 875px;
+}
+
+.findRoom_houseList {
+  width: 50%;
+}
+
+.findRoom_houseList_nav {
+  position: fixed;
+}
+
+.findRoom_map {
+  width: 50%;
+  height: 100%
 }
