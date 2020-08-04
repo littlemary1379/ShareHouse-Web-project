@@ -9,3 +9,9 @@ $(".tab_menu_btn").on("click", function () {
   $(".tab_box").hide();
   $(".tab_box").eq(idx).show();
 });
+
+init();
+
+function init() {
+  $(".tab_box").eq(0).show();
+}
