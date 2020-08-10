@@ -1,10 +1,18 @@
 package com.mysh.shareHouse.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.mysh.shareHouse.service.FAQService;
+
+import lombok.RequiredArgsConstructor;
+
 @Controller
+@RequiredArgsConstructor
 public class IndexController {
+	
+	private final FAQService faqService;
 	
 	@GetMapping({"", "/"})
 	public String index() {
@@ -24,5 +32,11 @@ public class IndexController {
 	@GetMapping("/findRoom")
 	public String findRoom() {
 		return "/page/findRoom";
+	}
+	
+	@GetMapping("/faq/living")
+	public String faqLiving(Model model) {
+		model.addAttribute("faqLiving", faqService.findAll());
+		return "/page/faqLiving";
 	}
 }
