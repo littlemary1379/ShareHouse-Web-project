@@ -1,6 +1,13 @@
 <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/css/mysh1.css">
+	<link rel="stylesheet" type="text/css" href="/css/mysh2.css">
+
+</head>
+<body>
 <th:block th:replace="layout/header"></th:block>
-  <body>
     <div class="tab_wrap">
       <div class="tab_menu_container">
         <button class="tab_menu_btn on" type="button">입주 절차</button>
@@ -40,7 +47,7 @@
                 </td>
 
                 <td>
-                  <img src="/img/img_process3.png" />
+                  <img src="img/img_process3.png" />
                   <h5>3. 하우스투어</h5>
                   <p>희망지점을 방문해보고 간단한 인터뷰를 합니다.</p>
                 </td>
@@ -48,19 +55,19 @@
 
               <tr>
                 <td>
-                  <img src="/img/img_process4.png" />
+                  <img src="img/img_process4.png" />
                   <h5>4. 계약서 작성</h5>
                   <p>하우스투어 후 희망 시 계약서 작성까지 바로 가능합니다.</p>
                 </td>
 
                 <td>
-                  <img src="/img/img_process5.png" />
+                  <img src="img/img_process5.png" />
                   <h5>5. 보증금/월세 납부</h5>
                   <p>기간 내에 보증금과 월세를 납부해야 계약이 완료됩니다.</p>
                 </td>
 
                 <td>
-                  <img src="/img/img_process6.png" />
+                  <img src="img/img_process6.png" />
                   <h5>6. 오리엔테이션</h5>
                   <p>입주 후 셰어하우스 생활에 대한 안내를 듣게 됩니다.</p>
                 </td>
@@ -113,8 +120,8 @@
                 <h2>오리엔테이션</h2>
               </div>
               <div class="box">
-                <div class="/img fit">
-                  <img src="/img/ori.png" alt="" />
+                <div class="image_fit">
+                  <img src="img/ori.png" alt="" />
                 </div>
                 <div class="content">
                   <p>
@@ -139,8 +146,8 @@
                 <h2>친해지길 바래</h2>
               </div>
               <div class="box">
-                <div class="/img fit">
-                  <img src="/img/tea.png" alt="" />
+                <div class="image_fit">
+                  <img src="img/tea.png" alt="" />
                 </div>
                 <div class="content">
                   <p>
@@ -167,8 +174,8 @@
                   <h2>우주인 인터뷰</h2>
                 </div>
                 <div class="box">
-                  <div class="/img fit">
-                    <img src="/img/inter.png" alt="" />
+                  <div class="image_fit">
+                    <img src="img/inter.png" alt="" />
                   </div>
 
                   <p>
@@ -194,8 +201,8 @@
                 <h2>우주인 연말파티</h2>
               </div>
               <div class="box">
-                <div class="/img fit">
-                  <img src="/img/par.png" alt="" />
+                <div class="image_fit">
+                  <img src="img/par.png" alt="" />
                 </div>
                 <div class="content">
                   <p>
@@ -217,7 +224,7 @@
         <div class="tab_box">
           <div class="tab__three">
             <div class="tab__three__main">
-              <img src="/img/service_title.png" />
+              <img src="img/service_title.png" />
             </div>
 
             <div class="tab_box_title_box">
@@ -226,7 +233,7 @@
             <br /><br />
             <div class="thumbnails">
               <div class="box">
-                <img src="/img/wifi.png" alt="" />
+                <img src="img/wifi.png" alt="" />
                 <div class="inner">
                   <h3>와이파이</h3>
                   <p>
@@ -238,7 +245,7 @@
               </div>
 
               <div class="box">
-                <img src="/img/cleaning.png" alt="" />
+                <img src="img/cleaning.png" alt="" />
                 <div class="inner">
                   <h3>정기청소 서비스</h3>
                   <p>
@@ -250,7 +257,7 @@
               </div>
 
               <div class="box">
-                <img src="/img/bug.png" alt="" />
+                <img src="img/bug.png" alt="" />
                 <div class="inner">
                   <h3>방역서비스</h3>
                   <p>
@@ -270,11 +277,11 @@
 
             <div class="box-three-dis">
               <div class="box">
-                <img src="/img/miniray.png" alt="" />
+                <img src="img/miniray.png" alt="" />
                 <div class="inner">
                   <h1>미니레이</h1>
                   <p>
-                    컴팩트하지만 생생한 화질의 영상을 감상할 수 있는 휴대형
+                    컴팩트하지만 생생한 화질의 영상을 <br />감상할 수 있는 휴대형
                     미니빔입니다.<br /><br />
                     우주인 28% 할인<br />
                     지구인 28% 할인
@@ -282,11 +289,11 @@
                 </div>
               </div>
               <div class="box">
-                <img src="/img/tutoring.png" alt="" />
+                <img src="img/tutoring.png" alt="" />
                 <div class="inner">
                   <h1>튜터링</h1>
                   <p>
-                    전화영어보다 편하고 저렴하게 일상 속 영어회화 및 영어토픽을
+                    전화영어보다 편하고 저렴하게 일상 속 <br />영어회화 및 영어토픽을
                     즐기는 앱 입니다.<br /><br />
                     우주인&지구인 대상<br />
                     FREEPASS 15분 2회 수강권 제공
@@ -298,11 +305,11 @@
 
             <div class="box-three-dis">
               <div class="box">
-                <img src="/img/e_brick_coffee.png" alt="" />
+                <img src="img/e_brick_coffee.png" alt="" />
                 <div class="inner">
                   <h1>이브릭커피</h1>
                   <p>
-                    연남동에 위치한 카페로 '솔트커피' '비엔나커피'가 유명한
+                    연남동에 위치한 카페로 '솔트커피' '비엔나커피'가 <br />유명한
                     곳입니다.<br /><br />
                     우주인 30% 할인<br />
                     우주인 50% 할인<br />
@@ -311,11 +318,11 @@
                 </div>
               </div>
               <div class="box">
-                <img src="/img/CBI.png" alt="" />
+                <img src="img/CBI.png" alt="" />
                 <div class="inner">
                   <h1>CBI(셰어베딩)</h1>
                   <p>
-                    항상 새 것 같은 침구교체 서비스 이사 짐 간소화와 청결한
+                    항상 새 것 같은 침구교체 서비스 이사 짐 간소화와 청결한<br />
                     침구를 유지, 3회 교체한 침구는 필요한 곳에 기증이됩니다.<br /><br />
                     월 1회 교체 서비스 : 19,000원/월<br />
                     월 2회 교체 서비스 : 29,000원/월<br />
@@ -330,7 +337,7 @@
 
             <div class="box-three-dis">
               <div class="box">
-                <img src="/img/matazoo_navy.png" alt="" />
+                <img src="img/matazoo_navy.png" alt="" />
                 <div class="inner">
                   <h1>마타주</h1>
                   <p>
@@ -341,7 +348,7 @@
                 </div>
               </div>
               <div class="box">
-                <img src="/img/hotel_the_designers.png" alt="" />
+                <img src="img/hotel_the_designers.png" alt="" />
                 <div class="inner">
                   <h1>호텔 더 디자이너스</h1>
                   <p>
@@ -362,7 +369,6 @@
       </div>
       <!-- tab_box_container e -->
     </div>
-
-    <script type="text/javascript" src="/js/MoveInGuide.js"></script>
+    <script src="/js/MoveInGuide.js"></script>
   <th:block th:replace="layout/footer"></th:block>
-
+</body>

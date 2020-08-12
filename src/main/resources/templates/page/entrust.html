@@ -1,7 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <th:block th:replace="layout/header"></th:block>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/css/mysh1.css">
+	<link rel="stylesheet" type="text/css" href="/css/mysh2.css">
+</head>
   <body>
+  <th:block th:replace="layout/header"></th:block>
+    <nav class="PutOutRoom_Nav">
+        <ul class="porN_list">
+            <li><a href="/putOutRoom">서비스 소개</a></li>
+            <li><a href="#">직영 임대 주기</a></li>
+            <li><a href="#">위탁 맡기기</a></li>
+        </ul>
+    </nav>
     <div class="Consignment-header">
       <p>
         내 집을 '우주'에 맡기면<br />
@@ -409,3 +421,4 @@
     </div>
     
   <th:block th:replace="layout/footer"/>
+</body>
