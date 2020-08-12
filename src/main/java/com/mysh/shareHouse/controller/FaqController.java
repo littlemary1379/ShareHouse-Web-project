@@ -13,7 +13,6 @@ public class FaqController {
 	@Autowired
 	private FAQService faqService;
 	
-
 	@GetMapping("/faq/living")
 	public String faqLiving(Model model) {
 		model.addAttribute("faqLiving", faqService.findAll());
