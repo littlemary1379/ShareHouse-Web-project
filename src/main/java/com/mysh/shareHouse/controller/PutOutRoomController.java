@@ -6,13 +6,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PutOutRoomController {
 
-	@GetMapping("/putOutRoom")
-	public String putOutRoom() {
-		return "/page/putOutRoom";
+	@GetMapping("/putOutRoom/info")
+	public String putOutRoomInfo() {
+		return "/page/serviceInfo";
+	}
+	
+	@GetMapping("/putOutRoom/directManagement")
+	public String directManagement() {
+		return "/page/directManagement";
 	}
 	
 	@GetMapping("/putOutRoom/entrust")
-	public String Entrust() {
+	public String entrust() {
 		return "/page/entrust";
 	}
+	
 }

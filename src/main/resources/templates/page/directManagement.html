@@ -2,16 +2,17 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/css/mysh1.css">
 </head>
 <body>
 <th:block th:replace="layout/header"></th:block>
       <nav class="PutOutRoom_Nav">
-          <ul class="porN_list">
-              <li><a href="#">서비스 소개</a></li>
-              <li><a href="#">직영 임대 주기</a></li>
-              <li><a href="/putOutRoom/entrust">위탁 맡기기</a></li>
-          </ul>
-      </nav>
+        <ul class="porN_list">
+            <li><a href="/putOutRoom/info">서비스 소개</a></li>
+            <li><a href="/putOutRoom/directManagement">직영 임대 주기</a></li>
+            <li><a href="/putOutRoom/entrust">위탁 맡기기</a></li>
+        </ul>
+    </nav>
       <section>
           <div>
               <div class="directRent_banner">
